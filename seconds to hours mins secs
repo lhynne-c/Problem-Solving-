@@ -1,0 +1,10 @@
+
+
+a = int(input("Enter a number (in seconds): "))
+hour = a//3600  # 5403/3600 = 1
+hour1 = a%3600 # = 1803
+minutes = hour1//60 # 30 (whole number)
+seconds = hour1%60 # remainder 3
+
+
+print(f"There are {hour} hours, {minutes} minutes and {seconds} seconds in {a}")
